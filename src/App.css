@@ -1,0 +1,142 @@
+nav {
+  background: #020617;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #1e293b;
+}
+
+nav a {
+  color: #e5e7eb;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+/* lista miast*/
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.city-tile {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 20px;
+  padding: 24px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.city-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.city-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.city-temp {
+  font-size: 48px;
+  font-weight: 700;
+  color: #38bdf8;
+  margin: 16px 0;
+}
+
+.city-icon {
+  font-size: 36px;
+  color: #38bdf8;
+}
+
+/* strona miasta */
+.city-page {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 24px;
+  padding: 32px;
+}
+
+.city-page h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.current-weather {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.current-weather .temp {
+  font-size: 80px;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+.current-weather .desc {
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+/* pogoda prognozA */
+.forecast {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.forecast-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 16px;
+  min-width: 120px;
+  text-align: center;
+}
+
+.forecast-card span {
+  font-size: 32px;
+  color: #38bdf8;
+}
+
+/* warunki atmosf */
+.details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.detail-box {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.detail-box h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}

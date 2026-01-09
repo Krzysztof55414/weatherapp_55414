@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body { /*gradientowe tlo, kolor tekstu, min wysokosc ekranu*/
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: linear-gradient(180deg, #0f172a, #020617);
+  color: #e5e7eb;
+  min-height: 100vh;
+}
+
+/* linki jako kolor */
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* naglowki jako rozmiar i marginesy */
+h1 {
+  margin: 20px 0;
+  font-size: 32px;
+}
+
+h2 {
+  margin: 16px 0;
+}
+
+/* ikony z materiala */
+.material-symbols-outlined {
+  vertical-align: middle;
+}

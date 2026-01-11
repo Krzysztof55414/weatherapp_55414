@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import weatherData from "../data/weatherData";
 
-{/*dodaje miasta do ulub */}
+
 export default function Favorites() {
   const favorites = useSelector((state) => state.favorites.cities);
   const unit = useSelector((state) => state.temperature.unit);

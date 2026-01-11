@@ -41,9 +41,10 @@ export default function Favorites() {
           return (
             <Link
               key={cityId}
-              to={`/city/${cityId}`}   // 🔥 NAJWAŻNIEJSZA LINIA
-              style={{ textDecoration: "none" }}
+              to={`/city/${cityId}`}  
+              style={{ textDecoration: "none" }} 
             >
+
               <div
                 style={{
                   background: "#1f2c3e",
@@ -53,6 +54,7 @@ export default function Favorites() {
                   boxShadow: "0 10px 30px rgba(0,0,0,0.4)",
                   cursor: "pointer",
                 }}
+                
               >
                 <span
                   className="material-symbols-outlined"
